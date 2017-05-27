@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/224/trunk/include/model
+END
+BaseModel.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/212/trunk/include/model/BaseModel.h
+END
+Match.h
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/224/trunk/include/model/Match.h
+END
+Player.h
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/212/trunk/include/model/Player.h
+END
+Division.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/222/trunk/include/model/Division.h
+END
+Team.h
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/215/trunk/include/model/Team.h
+END
+Sport.h
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/212/trunk/include/model/Sport.h
+END

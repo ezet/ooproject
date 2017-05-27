@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/216/trunk/include/lib
+END
+Command.h
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/216/trunk/include/lib/Command.h
+END
+TCollection.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/215/trunk/include/lib/TCollection.h
+END
+Console.h
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/212/trunk/include/lib/Console.h
+END
+functors.h
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/65/trunk/include/lib/functors.h
+END
+targetver.h
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/40/trunk/include/lib/targetver.h
+END
+macros.h
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/40/trunk/include/lib/macros.h
+END
+SimpleCSV.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/212/trunk/include/lib/SimpleCSV.h
+END
+Validator.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/212/trunk/include/lib/Validator.h
+END
+ErrorHandler.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/212/trunk/include/lib/ErrorHandler.h
+END
+IoHelper.h
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/212/trunk/include/lib/IoHelper.h
+END

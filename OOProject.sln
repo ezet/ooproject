@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OOProject", "OOProject.vcxproj", "{C26A503B-F1FA-4264-8C5F-F7B2EC987D0B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3800E9D5-9ED2-4B1E-A940-52402153F803}"
+EndProject
+Global
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C26A503B-F1FA-4264-8C5F-F7B2EC987D0B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C26A503B-F1FA-4264-8C5F-F7B2EC987D0B}.Debug|Win32.Build.0 = Debug|Win32
+		{C26A503B-F1FA-4264-8C5F-F7B2EC987D0B}.Release|Win32.ActiveCfg = Release|Win32
+		{C26A503B-F1FA-4264-8C5F-F7B2EC987D0B}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

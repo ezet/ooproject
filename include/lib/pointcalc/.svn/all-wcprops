@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/212/trunk/include/lib/pointcalc
+END
+PointCalculator.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/212/trunk/include/lib/pointcalc/PointCalculator.h
+END
+Calc210.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/212/trunk/include/lib/pointcalc/Calc210.h
+END
+Calc310.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/212/trunk/include/lib/pointcalc/Calc310.h
+END
+Calc3210.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/212/trunk/include/lib/pointcalc/Calc3210.h
+END

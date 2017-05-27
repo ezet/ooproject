@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 28
+/svn/!svn/ver/206/trunk/test
+END
+FileServiceTest.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/206/trunk/test/FileServiceTest.cpp
+END
+test.h
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/37/trunk/test/test.h
+END
+IoTest.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/42/trunk/test/IoTest.cpp
+END
+SportTest.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/111/trunk/test/SportTest.cpp
+END
+PlayerTest.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/78/trunk/test/PlayerTest.cpp
+END

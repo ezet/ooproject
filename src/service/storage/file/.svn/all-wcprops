@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/239/trunk/src/service/storage/file
+END
+ExportFileService.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/233/trunk/src/service/storage/file/ExportFileService.cpp
+END
+SystemFileService.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/225/trunk/src/service/storage/file/SystemFileService.cpp
+END
+BaseFileService.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/225/trunk/src/service/storage/file/BaseFileService.cpp
+END
+ImportFileService.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/239/trunk/src/service/storage/file/ImportFileService.cpp
+END

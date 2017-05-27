@@ -1,0 +1,10 @@
+1
+Manchester United
+Old Trafford
+2
+100001
+Jens Jensen,Adresse 1
+20101010,Manchester United,Tottenham
+20101011,Chelsea,Liverpool
+20101012,Manchester City,Chelsea
+20101013,Fulham,Everton

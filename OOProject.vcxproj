@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\Application.h" />
+    <ClInclude Include="include\config.h" />
+    <ClInclude Include="include\lib\Console.h" />
+    <ClInclude Include="include\lib\Command.h" />
+    <ClInclude Include="include\lib\ErrorHandler.h" />
+    <ClInclude Include="include\lib\pointcalc\Calc3210.h" />
+    <ClInclude Include="include\lib\pointcalc\Calc210.h" />
+    <ClInclude Include="include\lib\SimpleCSV.h" />
+    <ClInclude Include="include\lib\Validator.h" />
+    <ClInclude Include="include\model\Division.h" />
+    <ClInclude Include="include\model\Match.h" />
+    <ClInclude Include="include\lib\pointcalc\Calc310.h" />
+    <ClInclude Include="include\lib\pointcalc\PointCalculator.h" />
+    <ClInclude Include="include\model\Team.h" />
+    <ClInclude Include="include\lib\functors.h" />
+    <ClInclude Include="include\lib\IoHelper.h" />
+    <ClInclude Include="include\lib\macros.h" />
+    <ClInclude Include="include\lib\targetver.h" />
+    <ClInclude Include="include\lib\TCollection.h" />
+    <ClInclude Include="include\model\BaseModel.h" />
+    <ClInclude Include="include\model\Player.h" />
+    <ClInclude Include="include\model\Sport.h" />
+    <ClInclude Include="include\service\storage\file\BaseFileService.h" />
+    <ClInclude Include="include\service\storage\file\ExportFileService.h" />
+    <ClInclude Include="include\service\storage\file\ImportFileService.h" />
+    <ClInclude Include="include\service\storage\file\SystemFileService.h" />
+    <ClInclude Include="include\service\storage\StorageService.h" />
+    <ClInclude Include="include\stdafx.h" />
+    <ClInclude Include="test\test.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="src\Application.cpp" />
+    <ClCompile Include="src\config.cpp" />
+    <ClCompile Include="src\lib\Command.cpp" />
+    <ClCompile Include="src\lib\Console.cpp" />
+    <ClCompile Include="src\lib\ErrorHandler.cpp" />
+    <ClCompile Include="src\lib\pointcalc\Calc210.cpp" />
+    <ClCompile Include="src\lib\pointcalc\Calc310.cpp" />
+    <ClCompile Include="src\lib\pointcalc\Calc3210.cpp" />
+    <ClCompile Include="src\lib\pointcalc\PointCalculator.cpp" />
+    <ClCompile Include="src\lib\SimpleCSV.cpp" />
+    <ClCompile Include="src\lib\Validator.cpp" />
+    <ClCompile Include="src\model\Division.cpp" />
+    <ClCompile Include="src\model\Match.cpp" />
+    <ClCompile Include="src\model\Team.cpp" />
+    <ClCompile Include="src\lib\functors.cpp" />
+    <ClCompile Include="src\lib\IoHelper.cpp" />
+    <ClCompile Include="src\model\BaseModel.cpp" />
+    <ClCompile Include="src\model\Player.cpp" />
+    <ClCompile Include="src\model\Sport.cpp" />
+    <ClCompile Include="src\service\storage\file\BaseFileService.cpp" />
+    <ClCompile Include="src\service\storage\file\ExportFileService.cpp" />
+    <ClCompile Include="src\service\storage\file\ImportFileService.cpp" />
+    <ClCompile Include="src\service\storage\file\SystemFileService.cpp" />
+    <ClCompile Include="src\stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="test\FileServiceTest.cpp" />
+    <ClCompile Include="test\IoTest.cpp" />
+    <ClCompile Include="test\PlayerTest.cpp" />
+    <ClCompile Include="test\SportTest.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="division.txt" />
+    <None Include="results.txt" />
+    <None Include="players.dat" />
+    <None Include="sports.dat" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C26A503B-F1FA-4264-8C5F-F7B2EC987D0B}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>OOProject</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(ProjectDir)include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(ProjectDir)include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

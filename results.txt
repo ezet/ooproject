@@ -1,0 +1,24 @@
+Football
+2
+Premier League
+11
+20110910,Tottenham Hotspur,Manchester City,0,0,1
+20100814,Sunderland,Birmingham City,2,2,100071,100072,100011,100012,1
+20100828,Blackpool,Fulham,2,2,10021,10022,100041,100043,1
+20100828,Chelse,Stoke Cit,2,0,100031,100032,1
+20100828,Tottenham Hotspur,Wigan Athletic,0,1,100092,1
+20100828,Wolverhampton Wanderers,Newcastle United,1,1,100099,100065,1
+20100828,Manchester United,West Ham United,3,0,100057,100058,100059,1
+20100829,Bolton Wanderers,Birmingham City,2,2,100026,100028,100011,100014,1
+20100829,Liverpool,West Bromwich Albion,1,0,100047,1
+20100829,Sunderland,Manchester City,1,0,100071,1
+20100829,Aston Villa,Everton,1,0,10008,1
+divtwo
+3
+12312312,team,teamtwo,1,1,101010,101011,1
+12312312,team,teamtwo,1,1,101010,101011,1
+12312312,team,teamtwo,1,1,101010,101011,1
+sporttwo
+1
+divthree
+0
